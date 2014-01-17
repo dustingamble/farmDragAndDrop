@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+
+/************ CSS  *******/
+
+* { 
+ 	-moz-box-sizing: border-box; 
+ 	-webkit-box-sizing: border-box; 
+ 	box-sizing: border-box; 
+ 	margin: 0px;
+ 	padding:0px;
+} 	
+
+body {
+	background: url(images/nature.png) no-repeat;
+	padding:none;
+	margin:none;
+	height: 650px;
+}
+
+#wrapper{
+	width: 1020px;
+	height: 650px;
+	margin:auto;
+	
+}
+#header {
+	width: 1020px;
+	height:200px;
+}
+
+.dragToArea{
+	float: left;
+	height: 273px;
+	width: 273px;
+	padding: 9px;
+	border:2px dashed #fff;
+	background:url(images/knife.png);
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.dragFromArea{
+	float:left;
+	height: 800px;
+	width: 200px;
+	padding: 10px;
+}
+.dragFromArea img{
+	padding-bottom: 10px;
+}
+
+.draggable{
+	cursor: move;
+}
+
